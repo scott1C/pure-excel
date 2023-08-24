@@ -26,7 +26,7 @@ const currentPlugins = () => {
       filename: filename('css'),
     }),
   ];
-  if (isDev) {
+  if (isProd) {
     plugins.push(new ESLintPlugin());
   }
 
