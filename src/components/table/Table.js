@@ -17,8 +17,7 @@ export class Table extends ExcelComponent {
     return createTable(20);
   }
 
-  onClick(e) {
-    // console.log(this)
+  onClick(event) {
   }
 
   onMousedown(event) {
@@ -28,6 +27,5 @@ export class Table extends ExcelComponent {
   }
 
   onMousemove() {
-    // console.log('moving')
   }
 }
